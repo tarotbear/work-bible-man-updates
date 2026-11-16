@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '.github/staged-release/v0.9.1-dev/**'
+      - '.github/scripts/bootstrap_publish_v091.sh'
+      - '.github/workflows/publish-v091-update.yml'
   workflow_dispatch:
 
 permissions:

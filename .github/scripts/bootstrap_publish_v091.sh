@@ -12,7 +12,7 @@ stage,out=map(Path,sys.argv[1:3])
 m=json.loads((stage/'manifest.json').read_text(encoding='utf-8'))
 r=m['release']
 assert r['schema']==1 and r['package']=='kr.workbibleman.app'
-assert r['versionCode']==18 and r['versionName']=='0.9.0-dev'
+assert r['versionCode']==18 and r['versionName']=='0.9.1-dev'
 assert r['apkUrl']=='https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.1-dev/work-bible-man.apk'
 assert m['signedCertSha256']=='52e86078c16d44c83b265834098fc92fea00a6ccef4f2c41dae022310e4b0387'
 assert 1<=len(m['parts'])<=256

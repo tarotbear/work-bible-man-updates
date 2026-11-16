@@ -1,0 +1,40 @@
+name: Check update links without login
+
+on:
+  push:
+    paths:
+      - '.github/workflows/check-public-download.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  anonymous-download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check public latest.json and signed APK without credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          feed=https://raw.githubusercontent.com/tarotbear/work-bible-man-updates/main/latest.json
+          curl --fail --location --retry 5 --retry-all-errors --retry-delay 3 --connect-timeout 20 --max-time 150 "$feed" --output latest.json
+          jq -e '.schema==1 and .versionCode==17 and .package=="kr.workbibleman.app"' latest.json >/dev/null
+          url=$(jq -r '.apkUrl' latest.json)
+          case "$url" in
+            https://github.com/tarotbear/work-bible-man-updates/releases/download/*/work-bible-man.apk) ;;
+            *) echo 'Unexpected public APK URL' >&2; exit 1;;
+          esac
+          final=$(curl --fail --location --retry 5 --retry-all-errors --retry-delay 3 --connect-timeout 20 --max-time 180 --write-out '%{url_effective}' --output work-bible-man.apk "$url")
+          size=$(stat -c%s work-bible-man.apk)
+          expected_size=$(jq -r '.size' latest.json)
+          test "$size" -eq "$expected_size"
+          actual=$(sha256sum work-bible-man.apk | awk '{print $1}')
+          expected=$(jq -r '.sha256' latest.json)
+          test "$actual" = "$expected"
+          case "$final" in
+            https://release-assets.githubusercontent.com/*|https://objects.githubusercontent.com/*|https://github.com/*) ;;
+            *) echo "Unexpected final redirect host" >&2; exit 1;;
+          esac
+          echo "ANONYMOUS DOWNLOAD PASSED: $size bytes SHA256 $actual"

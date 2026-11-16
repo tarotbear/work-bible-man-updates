@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "package": "kr.workbibleman.app",
+  "versionCode": 17,
+  "versionName": "0.9.0-dev",
+  "notes": "앱 자동 업데이트 기능과 학습 기록 보존 업데이트 검증",
+  "size": 6832556,
+  "sha256": "f417ce69e8e60a6986cd33b5de722e05195432bd7ca6e205fe03be460819b347",
+  "apkUrl": "https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.0-dev/work-bible-man.apk"
+}

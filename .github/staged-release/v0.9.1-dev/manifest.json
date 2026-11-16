@@ -1,0 +1,150 @@
+{
+  "release": {
+    "schema": 1,
+    "package": "kr.workbibleman.app",
+    "versionCode": 18,
+    "versionName": "0.9.1-dev",
+    "notes": "오답 학습에 장·절과 전체 문장을 표시하고 문장 속 단어별 빈칸에 직접 입력하도록 수정",
+    "size": 6833856,
+    "sha256": "b39eb147cd2306f534131bebdd08c95a7cabb57604d66842f935fc040c975d8e",
+    "apkUrl": "https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.1-dev/work-bible-man.apk"
+  },
+  "parts": [
+    {
+      "name": "part-000.bin",
+      "length": 262144,
+      "sha256": "3c179a1807a5c8c0dfed0da61fcec122e9641277a974f7b6589264f00d3ef98d"
+    },
+    {
+      "name": "part-001.bin",
+      "length": 262144,
+      "sha256": "f118e7b69c1624ae1912979ae8d7939d6c428316b6113801f72d319b188fb528"
+    },
+    {
+      "name": "part-002.bin",
+      "length": 262144,
+      "sha256": "1b92bdbe7dfafa1cbd00351cf3315859b0155ca73b239926c5ca68cd6539aa1a"
+    },
+    {
+      "name": "part-003.bin",
+      "length": 262144,
+      "sha256": "25992c683651d9e7c8f7587de346a9b153e38d49f542668b519734302fc63d64"
+    },
+    {
+      "name": "part-004.bin",
+      "length": 262144,
+      "sha256": "76695df866d486613c3beda3439ef861fd94f7adbce33d2fdaade910dc66bbb4"
+    },
+    {
+      "name": "part-005.bin",
+      "length": 262144,
+      "sha256": "d6b4ae63b65ab5d5aee19d22ea6b815d5fa399c2644ba8b7dd1961ff8c9a0dd1"
+    },
+    {
+      "name": "part-006.bin",
+      "length": 262144,
+      "sha256": "00e025765d810911af140d883ca44bc8394d0d081169fad8176876d6e83f868a"
+    },
+    {
+      "name": "part-007.bin",
+      "length": 262144,
+      "sha256": "73ab79fa67e069aa26f8efcdaac3e52564843bbd09616f1da9eb25600232f2f2"
+    },
+    {
+      "name": "part-008.bin",
+      "length": 262144,
+      "sha256": "4b75d05ccf47c5aa749dcb9c73ea6496c0747dbf55d688780fd65cf7ceabe34e"
+    },
+    {
+      "name": "part-009.bin",
+      "length": 262144,
+      "sha256": "3b8cbc3db08ce684be728067acd5916ecfe344f5af9296e52ce23ddf71da1a96"
+    },
+    {
+      "name": "part-010.bin",
+      "length": 262144,
+      "sha256": "d2a09bf3cca1801e126413b8264a528335e9131777b209cd35b4fce00161c182"
+    },
+    {
+      "name": "part-011.bin",
+      "length": 262144,
+      "sha256": "b444741347cfb297702ffd349ed2c3bc7f9efb3af6f4f5322406c38ae97ccd0a"
+    },
+    {
+      "name": "part-012.bin",
+      "length": 262144,
+      "sha256": "d87fa623cc0f27369bdac0755062b02b970d0da7fb6c85e90dd5f8008a5d3b1a"
+    },
+    {
+      "name": "part-013.bin",
+      "length": 262144,
+      "sha256": "a2a4c366373c46ee5effed276d9e93395af28bbb0ee6ebbb27d66795cad0c34d"
+    },
+    {
+      "name": "part-014.bin",
+      "length": 262144,
+      "sha256": "6bcbc93bdbc838af0535cb3cfa7ddcc9cafa4c1ff3bd6e0537fcb514a63d8a2d"
+    },
+    {
+      "name": "part-015.bin",
+      "length": 262144,
+      "sha256": "92c02ead926a811e9f512042c923116aca9edcca0e58b762a6a63ed57d381dcf"
+    },
+    {
+      "name": "part-016.bin",
+      "length": 262144,
+      "sha256": "2ded69ef604e1153a2e9b3b678893fdcc15d00acce117c6b41c0b0c4aaceddc2"
+    },
+    {
+      "name": "part-017.bin",
+      "length": 262144,
+      "sha256": "33be537c272a781a415ddc64950195b8fd8dac5818e70c78974cfa8c69286a0b"
+    },
+    {
+      "name": "part-018.bin",
+      "length": 262144,
+      "sha256": "dcdfdfd12ee6de1eaec92e0a517d6e16f3b77c0ca93583cc3d0e6214d46da1e6"
+    },
+    {
+      "name": "part-019.bin",
+      "length": 262144,
+      "sha256": "056a58e7a7b9caec501e789cd093c8b94bd0256c1d46a352baed332a6a7477bd"
+    },
+    {
+      "name": "part-020.bin",
+      "length": 262144,
+      "sha256": "32dd699f82e784c83c6c0102f0d7be6dd1a0a9daebadfa154cbcf9262b905533"
+    },
+    {
+      "name": "part-021.bin",
+      "length": 262144,
+      "sha256": "a3b11b63189e4e5d0d03dbd035046d1624e4c270fd11aefded3a048c59610be3"
+    },
+    {
+      "name": "part-022.bin",
+      "length": 262144,
+      "sha256": "92463769daed4c125b53af4075077f6a0871f7765b98eabdaf704019a6935c56"
+    },
+    {
+      "name": "part-023.bin",
+      "length": 262144,
+      "sha256": "0fd8685c94ff747decbabe65fb2b4a31ac5882f2bd1f5f8dc0650e2e9f4ef1fe"
+    },
+    {
+      "name": "part-024.bin",
+      "length": 262144,
+      "sha256": "aa936a102f069d5baf693fe9874552394c39f0ede83000f9ae504c9e264eae8e"
+    },
+    {
+      "name": "part-025.bin",
+      "length": 262144,
+      "sha256": "9b26ed717a9bc9ff5e6903aaafd491945479a675f957dea348943bc2144858b1"
+    },
+    {
+      "name": "part-026.bin",
+      "length": 18112,
+      "sha256": "66492dd608bb2eb1c47372f3feddcc447d1e991b2fccf4afc5f021feed6137c8"
+    }
+  ],
+  "signedCertSha256": "52e86078c16d44c83b265834098fc92fea00a6ccef4f2c41dae022310e4b0387"
+}

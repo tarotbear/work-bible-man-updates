@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "package": "kr.workbibleman.app",
-  "versionCode": 17,
-  "versionName": "0.9.0-dev",
-  "notes": "앱 자동 업데이트 기능과 학습 기록 보존 업데이트 검증",
-  "size": 6832556,
-  "sha256": "f417ce69e8e60a6986cd33b5de722e05195432bd7ca6e205fe03be460819b347",
-  "apkUrl": "https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.0-dev/work-bible-man.apk"
+  "versionCode": 18,
+  "versionName": "0.9.1-dev",
+  "notes": "오답 학습에 장·절과 전체 문장을 표시하고 문장 속 단어별 빈칸에 직접 입력하도록 수정",
+  "size": 6833856,
+  "sha256": "b39eb147cd2306f534131bebdd08c95a7cabb57604d66842f935fc040c975d8e",
+  "apkUrl": "https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.1-dev/work-bible-man.apk"
 }

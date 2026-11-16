@@ -1,0 +1,30 @@
+name: Publish verified v0.9.0 app update
+
+on:
+  push:
+    paths:
+      - '.github/staged-release/v0.9.0-dev/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Retrieve staged signed APK parts
+        uses: actions/checkout@v4
+
+      - name: Set up Android build tools for certificate verification
+        uses: android-actions/setup-android@v4
+
+      - name: Install APK signature verifier
+        run: sdkmanager 'build-tools;35.0.0'
+
+      - name: Verify APK and publish official update feed
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash .github/scripts/bootstrap_publish_v090.sh

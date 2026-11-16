@@ -1,0 +1,60 @@
+{
+  "release": {
+    "schema": 1,
+    "package": "kr.workbibleman.app",
+    "versionCode": 17,
+    "versionName": "0.9.0-dev",
+    "notes": "앱 자동 업데이트 기능과 학습 기록 보존 업데이트 검증",
+    "size": 6832556,
+    "sha256": "f417ce69e8e60a6986cd33b5de722e05195432bd7ca6e205fe03be460819b347",
+    "apkUrl": "https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.0-dev/work-bible-man.apk"
+  },
+  "parts": [
+    {
+      "name": "part-000.bin",
+      "length": 786432,
+      "sha256": "69e7ddf4aac4f32e99f5015bd408c6cd3f4ca9a0d0a36b815c13b7c6043eb1c2"
+    },
+    {
+      "name": "part-001.bin",
+      "length": 786432,
+      "sha256": "cc6f04121c7ecfe02c79af7233d03df0bfcfc62b5f88601ca954e9b768d3093b"
+    },
+    {
+      "name": "part-002.bin",
+      "length": 786432,
+      "sha256": "f683b30909479b8aedcf512c942c2e9b5029447e0b5cdcad8f3f1737441ed503"
+    },
+    {
+      "name": "part-003.bin",
+      "length": 786432,
+      "sha256": "6c733fd6f12352d1dd7312b9223805cd28489770047c9c8bb77d855dd3457cb0"
+    },
+    {
+      "name": "part-004.bin",
+      "length": 786432,
+      "sha256": "ba9a4252c0fdae8c609b4a33ec4f19f863b7590287456d0df80c78571bb6a20e"
+    },
+    {
+      "name": "part-005.bin",
+      "length": 786432,
+      "sha256": "ac489f294f473efaeaad234a2ccea8a44f5c4e15d2d8f94d3fea186268853235"
+    },
+    {
+      "name": "part-006.bin",
+      "length": 786432,
+      "sha256": "1343b6c9713938adb2b111b67591e0079ac43e433df106a703180236785c3c3a"
+    },
+    {
+      "name": "part-007.bin",
+      "length": 786432,
+      "sha256": "acae8eedb6f0677f89a41a3e2838b2a944bbad95cdb3272921e09aefa98ef30d"
+    },
+    {
+      "name": "part-008.bin",
+      "length": 541100,
+      "sha256": "7935147fab0ddcd83d8c0fb26d4784bad5f70fd4405be2904e6db286f5508284"
+    }
+  ],
+  "signedCertSha256": "52e86078c16d44c83b265834098fc92fea00a6ccef4f2c41dae022310e4b0387"
+}

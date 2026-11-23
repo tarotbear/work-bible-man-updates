@@ -4,14 +4,21 @@
 
 ## 배포 중인 시험 버전
 
-- **v0.9.1-dev** — 오답 학습의 장·절 표시와 문장 속 단어별 입력칸 수정판
-- [APK 다운로드](https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.1-dev/work-bible-man.apk)
+- **v0.9.2-dev** — 부분 넣기 입력 범위 표시·여러 줄 답안·낭독 확인 선택 기능
+- [APK 다운로드](https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.2-dev/work-bible-man.apk)
 - [업데이트 안내 파일](https://raw.githubusercontent.com/tarotbear/work-bible-man-updates/main/latest.json)
-- [로그인 없는 다운로드 및 무결성 테스트](https://github.com/tarotbear/work-bible-man-updates/actions/runs/43877589320)
+- [로그인 없는 다운로드 및 무결성 테스트](https://github.com/tarotbear/work-bible-man-updates/actions/runs/45250666423)
 
-기존 **v0.8.9 또는 v0.9.0 고정 서명판**에서 설정 → 앱 업데이트 → 새 버전 확인을 눌러 v0.9.1을 찾을 수 있습니다. 이전 **임시 서명판**은 서명이 달라 바로 덮어 설치할 수 없으므로 학습 기록을 백업하고 전환해야 합니다.
+기존 **v0.8.9~v0.9.1 고정 서명판**에서 설정 → 앱 업데이트 → 새 버전 확인을 눌러 v0.9.2을 찾을 수 있습니다. 이전 **임시 서명판**은 서명이 달라 바로 덮어 설치할 수 없으므로 학습 기록을 백업하고 전환해야 합니다.
 
 안드로이드 앱 자동 업데이트는 사용자가 설치를 승인해야 진행됩니다. 설치 전 데이터 백업을 권장합니다.
+
+### 이번 버전 사용 방법
+
+- 부분 넣기에서 각 칸 위의 **절·몇 번째 단어인지·입력할 단어 수**를 확인합니다. 새 장 전체 문제의 빈칸은 절을 넘지 않습니다.
+- **성경암기 → 낭독 10회 확인 사용**을 끄면 녹음 없이 학습합니다. 낭독 단계에서는 **이번 낭독 건너뛰기**로 이동할 수도 있습니다.
+- 건너뛴 낭독은 인정 횟수에 추가하지 않습니다.
+- 실제 APK 자산의 브라우저 시나리오 **100/100**, 신규 기능 화면 검사 **10/10** 통과. 실제 휴대폰 키보드·마이크 동작은 별도 확인 대상입니다.
 
 ### 성경 본문 안내
 

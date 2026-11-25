@@ -1,0 +1,150 @@
+{
+  "release": {
+    "schema": 1,
+    "package": "kr.workbibleman.app",
+    "versionCode": 20,
+    "versionName": "0.9.3-dev",
+    "notes": "앱 이름을 L.A.W- 새언약으로 변경했습니다. 화면을 끄거나 다른 앱을 사용해도 말씀을 계속 듣고, 재생 알림에서 일시정지·이어 듣기·정지할 수 있습니다. 기존 읽기 화면을 백업하고 본문 중심 개선안을 비교·선택하도록 추가했습니다. 제미나이 음성 오호출을 줄이기 위한 Hey Google 설정 안내도 넣었습니다.",
+    "size": 6852316,
+    "sha256": "4f8a56c26e74325896191de540d9ba5b6713b7851b8086a3b354d80092621a1d",
+    "apkUrl": "https://github.com/tarotbear/work-bible-man-updates/releases/download/v0.9.3-dev/work-bible-man.apk"
+  },
+  "signedCertSha256": "52e86078c16d44c83b265834098fc92fea00a6ccef4f2c41dae022310e4b0387",
+  "parts": [
+    {
+      "name": "part-000.bin",
+      "length": 262144,
+      "sha256": "a0bdb5e9564941da57305104ca560e1238b78059e25755a344e58c34d0ae8132"
+    },
+    {
+      "name": "part-001.bin",
+      "length": 262144,
+      "sha256": "80ae35786ad44c5c082a9f4c918d2540869f64a6b846c7d800997c7b691b2fca"
+    },
+    {
+      "name": "part-002.bin",
+      "length": 262144,
+      "sha256": "16c5eebbe56973f5f347616da00f42928934b265cc6c10de3e7256f05e660d28"
+    },
+    {
+      "name": "part-003.bin",
+      "length": 262144,
+      "sha256": "c51cfec1c3383f3ebc97da1862864156c818f769f1c22ec41cb6f08620ac0abf"
+    },
+    {
+      "name": "part-004.bin",
+      "length": 262144,
+      "sha256": "b759e2e991ffa1075639b42ec4ab0017e4c4f76bb3edf4e257b140234f7b16b0"
+    },
+    {
+      "name": "part-005.bin",
+      "length": 262144,
+      "sha256": "aead8e05a472267f7bdfb19fdeb68e7cf196707a779a0c6b0a578fba48cd612b"
+    },
+    {
+      "name": "part-006.bin",
+      "length": 262144,
+      "sha256": "f3e7feeb21acfd9f5bcf79e40c96e3d88f029c7c2eea3cbfd0d4cf841bae81e2"
+    },
+    {
+      "name": "part-007.bin",
+      "length": 262144,
+      "sha256": "0ec29c398e9e2e512568b54b2ee9245f537cec10dbbc732b84aa899b39200f77"
+    },
+    {
+      "name": "part-008.bin",
+      "length": 262144,
+      "sha256": "c9bf4a0444de33a5f737d389471157d95546ba43cf39829eccf2374c6d3efe53"
+    },
+    {
+      "name": "part-009.bin",
+      "length": 262144,
+      "sha256": "326b1a131ed1a803cbfa98739c4c3c4b1ec99afb12c06aaae4d41d9c96f2f186"
+    },
+    {
+      "name": "part-010.bin",
+      "length": 262144,
+      "sha256": "798625e4fcd3c4958ca47f5f99d0ff391b101eecedc6186560e1b17a368a9ee2"
+    },
+    {
+      "name": "part-011.bin",
+      "length": 262144,
+      "sha256": "b57c9445241658cbcf9713ef7cde7b266520b4126bdc9b00b832942eb92324db"
+    },
+    {
+      "name": "part-012.bin",
+      "length": 262144,
+      "sha256": "546c746d769fb375203d81567b03282f53cffe4a0070b17834c388b6a5e281b4"
+    },
+    {
+      "name": "part-013.bin",
+      "length": 262144,
+      "sha256": "af8f91f48474568d84723d9dcb9e6444bec939321d91c59560886724e8925e9b"
+    },
+    {
+      "name": "part-014.bin",
+      "length": 262144,
+      "sha256": "641002197279c33dba39c8dd8a55bba3a9410f439dbbbd770eba717712d3fae3"
+    },
+    {
+      "name": "part-015.bin",
+      "length": 262144,
+      "sha256": "c006775af783985e7664eee8e9b4f3c9beb53cbc710fc4661c7b6cbbf7e5f053"
+    },
+    {
+      "name": "part-016.bin",
+      "length": 262144,
+      "sha256": "e5332f5788f20ca06d41bee8599e942a9bcf009b055c1197981e17c6dad4595f"
+    },
+    {
+      "name": "part-017.bin",
+      "length": 262144,
+      "sha256": "e264931397dc88885eb87073aac9ddefef16c6e078bdda01d6a09c835ac5b0c3"
+    },
+    {
+      "name": "part-018.bin",
+      "length": 262144,
+      "sha256": "ef3bbdef68fd1bfc03b915e5241f536f94b1896e1b6233408d018b50618031d4"
+    },
+    {
+      "name": "part-019.bin",
+      "length": 262144,
+      "sha256": "44d17f496d42d48962d53026bd03c836cb50be8f3001b8f2e713d50309133c54"
+    },
+    {
+      "name": "part-020.bin",
+      "length": 262144,
+      "sha256": "3892ac192243c3e9ab5af53529493de8285852273d27970cd98e527d8b24a31f"
+    },
+    {
+      "name": "part-021.bin",
+      "length": 262144,
+      "sha256": "18c09c5ce3eee224d83682aac183c75da12f001b8d11fe97ce907ef796097075"
+    },
+    {
+      "name": "part-022.bin",
+      "length": 262144,
+      "sha256": "77384efa74f58673eee76478a37510f5c0c814f6cefd75b9e89c85b81973d15d"
+    },
+    {
+      "name": "part-023.bin",
+      "length": 262144,
+      "sha256": "a30c2e918f35d46244c2958a06c8945e2ebd3abb7bb6812092e4cd7d97a87b3a"
+    },
+    {
+      "name": "part-024.bin",
+      "length": 262144,
+      "sha256": "8df2b68dbc9effda0a10a7455f03825394f4b2e44376417a4cbfedd02eefa9d3"
+    },
+    {
+      "name": "part-025.bin",
+      "length": 262144,
+      "sha256": "ed9868fe9990f4c54ed9a20feec60e347509e8b2aaf8a71b38d15796575814e3"
+    },
+    {
+      "name": "part-026.bin",
+      "length": 36572,
+      "sha256": "c19e7a47c5240e756ffab435de002eecaabaf29bad76d89d90a07d0062a78c64"
+    }
+  ]
+}
